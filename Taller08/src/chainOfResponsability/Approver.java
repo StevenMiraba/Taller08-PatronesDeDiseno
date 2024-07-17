@@ -1,5 +1,6 @@
 package chainOfResponsability;
 
-public abstract class Approver {
-
+public interface Approver {
+    void setNextApprover(Approver next);
+    void approvePurchase(double amount);
 }
