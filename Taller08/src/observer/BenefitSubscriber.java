@@ -1,12 +1,14 @@
 package observer;
 
-public class BenefitSubscriber {
+public class BenefitSubscriber implements Observer{
     public String observerState;
-
-    public void EmailSubscriber(String benefit){
-
+    public void EmailSuscriber(String email){
+        //code
     }
+
+    @Override
     public void update(String message){
-        
+        //code
     }
+
 }
