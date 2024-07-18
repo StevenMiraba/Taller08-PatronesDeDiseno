@@ -1,5 +1,8 @@
 package observer;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class NotificationSystem implements Subject {
     private List<Observer> observers;
     private String message;
