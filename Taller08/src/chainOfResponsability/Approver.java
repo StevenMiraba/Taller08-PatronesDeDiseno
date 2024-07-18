@@ -1,6 +1,6 @@
 package chainOfResponsability;
 
 public interface Approver {
-    void setNextApprover(Approver next);
     void approvePurchase(double amount);
+    void setNextApprover(Approver next);
 }

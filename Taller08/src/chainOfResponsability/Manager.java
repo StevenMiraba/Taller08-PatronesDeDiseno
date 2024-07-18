@@ -1,8 +1,7 @@
 package chainOfResponsability;
 
 public class Manager implements Approver{
-
-    Approver nextApprover;
+    private Approver nextApprover;
 
     @Override
     public void approvePurchase(double amount) {
@@ -17,5 +16,4 @@ public class Manager implements Approver{
     public void setNextApprover(Approver next) {
         this.nextApprover = next;
     }
-
 }

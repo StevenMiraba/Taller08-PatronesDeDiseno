@@ -1,8 +1,7 @@
 package chainOfResponsability;
 
 public class Supervisor implements Approver{
-
-    Approver nextApprover;
+    private Approver nextApprover;
 
     @Override
     public void approvePurchase(double amount) {
