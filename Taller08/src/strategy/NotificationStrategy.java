@@ -1,5 +1,5 @@
 package strategy;
 
-public class NotificationStrategy {
-    
+public interface NotificationStrategy {
+    void sendNotification(String notificationInfo);
 }
